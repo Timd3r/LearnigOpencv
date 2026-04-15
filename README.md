@@ -1,2 +1,0 @@
-# LearnigOpencv
-LearnigOpencv

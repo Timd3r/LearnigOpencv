@@ -1,0 +1,26 @@
+# Ignore all files
+*
+
+# Do not ignore directories (needed to reach nested source files)
+!*/
+
+# EXPLICITLY IGNORE VIRTUAL ENVIRONMENTS AND CACHES (prevents traversing them)
+.env/
+.venv/
+env/
+envs/
+venv/
+conda_env/
+.conda/
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+
+# Do not ignore Python files
+!*.py
+
+# Do not ignore Jupyter Notebook files
+!*.ipynb
+
+# Do not ignore the .gitignore file itself
+!.gitignore
