@@ -1,0 +1,13 @@
+path: /home/tim/.cache/kagglehub/datasets/nexuswho/laboro-tomato/versions/5
+
+train: train/images
+val: val/images
+
+names:
+  - b_fully_ripened
+  - b_half_ripened
+  - b_green
+  - l_fully_ripened
+  - l_half_ripened
+  - l_green
+nc: 6
